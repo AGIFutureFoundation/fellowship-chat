@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fellowship Chat — Where the Conversation Lives</title>
+  <meta name="description" content="Fellowship Chat — a community and conversation platform in the making." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#top">fellowship.chat</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#contact" class="btn btn-primary">Join the waitlist</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">fellowship.chat — a new project</p>
+        <h1>Where the <span class="accent">conversation lives</span></h1>
+        <p class="lead">TODO: replace this with your project's one-liner — what does fellowship.chat do, and for whom?</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Join the waitlist</a>
+          <a href="#features" class="btn btn-ghost">See what's coming</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About the project</h2>
+        <div class="split">
+          <article class="card">
+            <h3>The idea</h3>
+            <p>TODO: one or two paragraphs on the problem you're solving and why it matters.</p>
+          </article>
+          <article class="card">
+            <h3>Who it's for</h3>
+            <p>TODO: describe your audience and what they'll be able to do here.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">What's coming</h2>
+        <div class="grid-3">
+          <article class="card mechanism"><div class="mech-icon">💬</div><h3>Rooms</h3><p>TODO: describe your rooms/channels concept.</p></article>
+          <article class="card mechanism"><div class="mech-icon">🛡️</div><h3>Moderation</h3><p>TODO: describe how you keep conversations healthy.</p></article>
+          <article class="card mechanism"><div class="mech-icon">✨</div><h3>Identity</h3><p>TODO: describe profiles, presence, or reputation.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="media" class="section">
+      <div class="container">
+        <h2 class="section-title">Media &amp; embeds</h2>
+        <p class="section-sub">Drop in videos, maps, or calendars — set <code>data-youtube-id</code> to activate.</p>
+        <div class="grid-3">
+          <div class="embed-card" data-youtube-id=""><div class="embed-facade"><span class="embed-play">▶</span><p>Intro video</p></div></div>
+          <div class="embed-card" data-youtube-id=""><div class="embed-facade"><span class="embed-play">▶</span><p>Demo</p></div></div>
+          <div class="embed-card" data-youtube-id=""><div class="embed-facade"><span class="embed-play">▶</span><p>Deep dive</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Join the waitlist</h2>
+        <p class="section-sub">TODO: wire this form to a backend, or replace with an email link.</p>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <label>Name<input type="text" name="name" required placeholder="Your name" /></label>
+            <label>Email<input type="email" name="email" required placeholder="you@example.com" /></label>
+          </div>
+          <label>What do you want to talk about?<textarea name="message" rows="4" placeholder="Communities you'd want to see..."></textarea></label>
+          <button type="submit" class="btn btn-primary">Join the waitlist</button>
+          <p class="form-note" id="formNote" hidden>You're on the list. We'll be in touch.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="brand">fellowship.chat</p>
+        <p>© 2026 fellowship.chat</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about">About</a><a href="#features">Features</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="social-links">
+        <!-- TODO: replace # with real profile URLs -->
+        <a href="https://github.com/AGIFutureFoundation" aria-label="GitHub" rel="noopener" target="_blank">GitHub</a>
+        <a href="#" aria-label="X (Twitter)" rel="noopener" target="_blank">X</a>
+        <a href="#" aria-label="Discord" rel="noopener" target="_blank">Discord</a>
+        <a href="#" aria-label="YouTube" rel="noopener" target="_blank">YouTube</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
