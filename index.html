@@ -4,19 +4,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fellowship Chat — Where the Conversation Lives</title>
-  <meta name="description" content="Fellowship Chat — a community and conversation platform in the making." />
+  <meta name="description" content="Fellowship Chat is a community and conversation platform in the making. Join the waitlist and help shape where the conversation lives." />
+  <meta property="og:title" content="Fellowship Chat — Where the Conversation Lives" />
+  <meta property="og:description" content="Fellowship Chat is a community and conversation platform in the making. Join the waitlist and help shape where the conversation lives." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://fellowship.chat" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fellowship Chat — Where the Conversation Lives" />
+  <meta name="theme-color" content="#0b0e14" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%2310b981'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <nav class="nav container">
-      <a class="brand" href="#top">fellowship.chat</a>
+      <a class="brand" href="#top">fellowship<span class="accent">.chat</span></a>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
       <ul class="nav-links" id="navLinks">
         <li><a href="#about">About</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#media">Media</a></li>
-        <li><a href="#contact" class="btn btn-primary">Join the waitlist</a></li>
+        <li><a href="#preview">What's coming</a></li>
+        <li><a href="#waitlist" class="btn btn-primary">Join the waitlist</a></li>
       </ul>
     </nav>
   </header>
@@ -24,12 +31,17 @@
   <main id="top">
     <section class="hero">
       <div class="container hero-inner">
-        <p class="eyebrow">fellowship.chat — a new project</p>
+        <p class="eyebrow">fellowship.chat — a conversation platform in the making</p>
         <h1>Where the <span class="accent">conversation lives</span></h1>
-        <p class="lead">TODO: replace this with your project's one-liner — what does fellowship.chat do, and for whom?</p>
+        <p class="lead">A new home for communities that actually feel like fellowship — real rooms, real identity, real moderation. Built inside the AGIF family. The first conversations start soon — join the waitlist and help shape it.</p>
         <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary">Join the waitlist</a>
-          <a href="#features" class="btn btn-ghost">See what's coming</a>
+          <a href="#waitlist" class="btn btn-primary">Join the waitlist →</a>
+          <a href="mailto:x@agifuturefoundation.org?subject=fellowship.chat%20waitlist" class="btn btn-ghost">✉️ Talk to us directly</a>
+        </div>
+        <div class="stats-grid">
+          <div class="stat"><span class="stat-number">In</span><span class="stat-label">active development</span></div>
+          <div class="stat"><span class="stat-number">AGIF</span><span class="stat-label">built inside the AGIF family</span></div>
+          <div class="stat"><span class="stat-number">You</span><span class="stat-label">shape the first rooms</span></div>
         </div>
       </div>
     </section>
@@ -40,52 +52,45 @@
         <div class="split">
           <article class="card">
             <h3>The idea</h3>
-            <p>TODO: one or two paragraphs on the problem you're solving and why it matters.</p>
+            <p>Most chat platforms optimize for engagement. Fellowship Chat optimizes for belonging — rooms where people actually know each other, governed openly, with the community's interests built into the product.</p>
           </article>
           <article class="card">
             <h3>Who it's for</h3>
-            <p>TODO: describe your audience and what they'll be able to do here.</p>
+            <p>The AGIF fellowship community, its ventures and orders — and any community that wants a home designed for depth over noise. Waitlist members get founding-member access.</p>
           </article>
         </div>
       </div>
     </section>
-
-    <section id="features" class="section section-alt">
+    <section id="preview" class="section section-alt">
       <div class="container">
         <h2 class="section-title">What's coming</h2>
+        <p class="section-sub">The first three pillars of the platform.</p>
         <div class="grid-3">
-          <article class="card mechanism"><div class="mech-icon">💬</div><h3>Rooms</h3><p>TODO: describe your rooms/channels concept.</p></article>
-          <article class="card mechanism"><div class="mech-icon">🛡️</div><h3>Moderation</h3><p>TODO: describe how you keep conversations healthy.</p></article>
-          <article class="card mechanism"><div class="mech-icon">✨</div><h3>Identity</h3><p>TODO: describe profiles, presence, or reputation.</p></article>
+          <article class="card mechanism"><div class="mech-icon">💬</div><h3>Rooms</h3><p>Spaces with purpose — anchored to communities, projects, and gatherings, not an endless scroll.</p></article>
+          <article class="card mechanism"><div class="mech-icon">🛡️</div><h3>Moderation</h3><p>Governance-grade moderation — the AGIF approach to stewardship, applied to conversation.</p></article>
+          <article class="card mechanism"><div class="mech-icon">✨</div><h3>Identity</h3><p>Profiles with continuity and reputation — who you are travels with you across the fellowship.</p></article>
         </div>
       </div>
     </section>
 
-    <section id="media" class="section">
-      <div class="container">
-        <h2 class="section-title">Media &amp; embeds</h2>
-        <p class="section-sub">Drop in videos, maps, or calendars — set <code>data-youtube-id</code> to activate.</p>
-        <div class="grid-3">
-          <div class="embed-card" data-youtube-id=""><div class="embed-facade"><span class="embed-play">▶</span><p>Intro video</p></div></div>
-          <div class="embed-card" data-youtube-id=""><div class="embed-facade"><span class="embed-play">▶</span><p>Demo</p></div></div>
-          <div class="embed-card" data-youtube-id=""><div class="embed-facade"><span class="embed-play">▶</span><p>Deep dive</p></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section section-alt">
+    <section id="waitlist" class="section">
       <div class="container">
         <h2 class="section-title">Join the waitlist</h2>
-        <p class="section-sub">TODO: wire this form to a backend, or replace with an email link.</p>
+        <p class="section-sub">Founding members get the first rooms, a permanent badge, and a direct line to the team.</p>
         <form class="contact-form" id="contactForm">
           <div class="form-row">
             <label>Name<input type="text" name="name" required placeholder="Your name" /></label>
             <label>Email<input type="email" name="email" required placeholder="you@example.com" /></label>
           </div>
-          <label>What do you want to talk about?<textarea name="message" rows="4" placeholder="Communities you'd want to see..."></textarea></label>
-          <button type="submit" class="btn btn-primary">Join the waitlist</button>
-          <p class="form-note" id="formNote" hidden>You're on the list. We'll be in touch.</p>
+          <label>What community would you bring?<textarea name="message" rows="3" placeholder="Communities you'd want to see here first..."></textarea></label>
+          <button type="submit" class="btn btn-primary">Join the waitlist →</button>
+          <p class="form-note" id="formNote" hidden>You're on the list. We'll reach out when the first rooms open ✦</p>
         </form>
+        <div class="invest-badges" style="margin-top:36px">
+          <span class="chip">✉️ <a href="mailto:x@agifuturefoundation.org?subject=fellowship.chat">x@agifuturefoundation.org</a></span>
+          <span class="chip">💻 <a href="https://github.com/AGIFutureFoundation" target="_blank" rel="noopener">GitHub</a></span>
+          <span class="chip">✦ <a href="https://agifellowship.church" target="_blank" rel="noopener">The Fellowship</a></span>
+        </div>
       </div>
     </section>
   </main>
@@ -94,21 +99,19 @@
     <div class="container footer-inner">
       <div class="footer-brand">
         <p class="brand">fellowship.chat</p>
-        <p>© 2026 fellowship.chat</p>
+        <p>Where the conversation lives. © 2026 fellowship.chat</p>
       </div>
       <nav class="footer-nav">
-        <a href="#about">About</a><a href="#features">Features</a><a href="#contact">Contact</a>
+        <a href="#about">About</a><a href="#preview">What's coming</a><a href="#waitlist">Join the waitlist</a>
       </nav>
       <div class="social-links">
-        <!-- TODO: replace # with real profile URLs -->
         <a href="https://github.com/AGIFutureFoundation" aria-label="GitHub" rel="noopener" target="_blank">GitHub</a>
         <a href="#" aria-label="X (Twitter)" rel="noopener" target="_blank">X</a>
         <a href="#" aria-label="Discord" rel="noopener" target="_blank">Discord</a>
-        <a href="#" aria-label="YouTube" rel="noopener" target="_blank">YouTube</a>
       </div>
     </div>
     <div class="container family-bar">
-      <p>Part of the <a href="https://agifuturefoundation.org">AGI Future Foundation</a> family · <a href="https://worldforge.agifuturefoundation.org">WorldForge</a> · <a href="https://smartciti.x.agifuturefoundation.org">SmartCiti.X</a> · <a href="https://agifellowship.church">AGI Fellowship</a> · <a href="https://agi.lease">AGI Accelerator</a> · <a href="https://bioacoustics.cloud">WAVE</a></p>
+      <p>Part of the <a href="https://agifuturefoundation.org">AGI Future Foundation</a> family · <a href="https://agifellowship.church">AGI Fellowship</a> · <a href="https://worldforge.agifuturefoundation.org">WorldForge</a> · <a href="https://smartciti.x.agifuturefoundation.org">SmartCiti.X</a> · <a href="https://agi.lease">AGI Accelerator</a> · <a href="https://bioacoustics.cloud">WAVE</a></p>
     </div>
   </footer>
   <script src="script.js"></script>
